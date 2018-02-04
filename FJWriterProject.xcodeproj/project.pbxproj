@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64371A5B20236A4B00894E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A5A20236A4B00894E07 /* AppDelegate.swift */; };
+		64371A6020236A4B00894E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64371A5E20236A4B00894E07 /* Main.storyboard */; };
+		64371A6320236A4B00894E07 /* FJWriterProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64371A6120236A4B00894E07 /* FJWriterProject.xcdatamodeld */; };
+		64371A6520236A4B00894E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64371A6420236A4B00894E07 /* Assets.xcassets */; };
+		64371A6820236A4B00894E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64371A6620236A4B00894E07 /* LaunchScreen.storyboard */; };
+		64371A7320236A4B00894E07 /* FJWriterProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A7220236A4B00894E07 /* FJWriterProjectTests.swift */; };
+		64371A7E20236A4B00894E07 /* FJWriterProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A7D20236A4B00894E07 /* FJWriterProjectUITests.swift */; };
+		64371A8C20236CEA00894E07 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A8B20236CEA00894E07 /* MainViewController.swift */; };
+		64371A9120236E1700894E07 /* FJWLatelyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A9020236E1700894E07 /* FJWLatelyViewController.swift */; };
+		64371A9320236E3C00894E07 /* FJWWritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A9220236E3C00894E07 /* FJWWritingViewController.swift */; };
+		64371A9520236E5200894E07 /* FJWSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A9420236E5200894E07 /* FJWSettingViewController.swift */; };
+		64371A982023786100894E07 /* FJWUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A972023786100894E07 /* FJWUserViewController.swift */; };
+		64371A9B2024998600894E07 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A9A2024998600894E07 /* UIColor+extension.swift */; };
+		64371A9F2024BF1800894E07 /* FJWLatelyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A9E2024BF1800894E07 /* FJWLatelyTableViewCell.swift */; };
+		64371AA12024BFA800894E07 /* FJWLatelyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64371AA02024BFA800894E07 /* FJWLatelyTableViewCell.xib */; };
+		DDA4E17595F1FD4E75211D4D /* libPods-FJWriterProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2135C0901B1FFE21274BF77 /* libPods-FJWriterProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64371A6F20236A4B00894E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64371A4F20236A4B00894E07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64371A5620236A4B00894E07;
+			remoteInfo = FJWriterProject;
+		};
+		64371A7A20236A4B00894E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64371A4F20236A4B00894E07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64371A5620236A4B00894E07;
+			remoteInfo = FJWriterProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A636A832495C2A1881E1243 /* Pods-FJWriterProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJWriterProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FJWriterProject/Pods-FJWriterProject.release.xcconfig"; sourceTree = "<group>"; };
+		64371A5720236A4B00894E07 /* FJWriterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJWriterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64371A5A20236A4B00894E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64371A5F20236A4B00894E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64371A6220236A4B00894E07 /* FJWriterProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FJWriterProject.xcdatamodel; sourceTree = "<group>"; };
+		64371A6420236A4B00894E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64371A6720236A4B00894E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64371A6920236A4B00894E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64371A6E20236A4B00894E07 /* FJWriterProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJWriterProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64371A7220236A4B00894E07 /* FJWriterProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWriterProjectTests.swift; sourceTree = "<group>"; };
+		64371A7420236A4B00894E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64371A7920236A4B00894E07 /* FJWriterProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJWriterProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64371A7D20236A4B00894E07 /* FJWriterProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWriterProjectUITests.swift; sourceTree = "<group>"; };
+		64371A7F20236A4B00894E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64371A8B20236CEA00894E07 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		64371A9020236E1700894E07 /* FJWLatelyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWLatelyViewController.swift; sourceTree = "<group>"; };
+		64371A9220236E3C00894E07 /* FJWWritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWWritingViewController.swift; sourceTree = "<group>"; };
+		64371A9420236E5200894E07 /* FJWSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWSettingViewController.swift; sourceTree = "<group>"; };
+		64371A972023786100894E07 /* FJWUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FJWUserViewController.swift; path = ../../../../../Documents/FJWUserViewController.swift; sourceTree = "<group>"; };
+		64371A9A2024998600894E07 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+extension.swift"; path = "../../../../../Documents/UIColor+extension.swift"; sourceTree = "<group>"; };
+		64371A9E2024BF1800894E07 /* FJWLatelyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FJWLatelyTableViewCell.swift; path = ../../../../../../Documents/FJWLatelyTableViewCell.swift; sourceTree = "<group>"; };
+		64371AA02024BFA800894E07 /* FJWLatelyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FJWLatelyTableViewCell.xib; path = ../../../../../../Documents/FJWLatelyTableViewCell.xib; sourceTree = "<group>"; };
+		A2135C0901B1FFE21274BF77 /* libPods-FJWriterProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJWriterProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C014ECADF4B8228BB388BB /* Pods-FJWriterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJWriterProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FJWriterProject/Pods-FJWriterProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64371A5420236A4B00894E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA4E17595F1FD4E75211D4D /* libPods-FJWriterProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64371A6B20236A4B00894E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64371A7620236A4B00894E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64371A4E20236A4B00894E07 = {
+			isa = PBXGroup;
+			children = (
+				64371A5920236A4B00894E07 /* FJWriterProject */,
+				64371A7120236A4B00894E07 /* FJWriterProjectTests */,
+				64371A7C20236A4B00894E07 /* FJWriterProjectUITests */,
+				64371A5820236A4B00894E07 /* Products */,
+				70DFB7A940C25B2DD7471032 /* Pods */,
+				8A0E9EB259494D8C1A87DE36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64371A5820236A4B00894E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64371A5720236A4B00894E07 /* FJWriterProject.app */,
+				64371A6E20236A4B00894E07 /* FJWriterProjectTests.xctest */,
+				64371A7920236A4B00894E07 /* FJWriterProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64371A5920236A4B00894E07 /* FJWriterProject */ = {
+			isa = PBXGroup;
+			children = (
+				64371A8D20236D3700894E07 /* Lately */,
+				64371A8E20236D6F00894E07 /* Writing */,
+				64371A8F20236D9F00894E07 /* Setting */,
+				64371A992024990400894E07 /* Extension */,
+				64371A5A20236A4B00894E07 /* AppDelegate.swift */,
+				64371A8B20236CEA00894E07 /* MainViewController.swift */,
+				64371A5E20236A4B00894E07 /* Main.storyboard */,
+				64371A6420236A4B00894E07 /* Assets.xcassets */,
+				64371A6620236A4B00894E07 /* LaunchScreen.storyboard */,
+				64371A6920236A4B00894E07 /* Info.plist */,
+				64371A6120236A4B00894E07 /* FJWriterProject.xcdatamodeld */,
+			);
+			path = FJWriterProject;
+			sourceTree = "<group>";
+		};
+		64371A7120236A4B00894E07 /* FJWriterProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				64371A7220236A4B00894E07 /* FJWriterProjectTests.swift */,
+				64371A7420236A4B00894E07 /* Info.plist */,
+			);
+			path = FJWriterProjectTests;
+			sourceTree = "<group>";
+		};
+		64371A7C20236A4B00894E07 /* FJWriterProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64371A7D20236A4B00894E07 /* FJWriterProjectUITests.swift */,
+				64371A7F20236A4B00894E07 /* Info.plist */,
+			);
+			path = FJWriterProjectUITests;
+			sourceTree = "<group>";
+		};
+		64371A8D20236D3700894E07 /* Lately */ = {
+			isa = PBXGroup;
+			children = (
+				64371A9D2024BEC000894E07 /* View */,
+				64371A9C2024BEA200894E07 /* Controller */,
+				64371A9020236E1700894E07 /* FJWLatelyViewController.swift */,
+			);
+			path = Lately;
+			sourceTree = "<group>";
+		};
+		64371A8E20236D6F00894E07 /* Writing */ = {
+			isa = PBXGroup;
+			children = (
+				64371A9220236E3C00894E07 /* FJWWritingViewController.swift */,
+			);
+			path = Writing;
+			sourceTree = "<group>";
+		};
+		64371A8F20236D9F00894E07 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				64371A9420236E5200894E07 /* FJWSettingViewController.swift */,
+				64371A972023786100894E07 /* FJWUserViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		64371A992024990400894E07 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				64371A9A2024998600894E07 /* UIColor+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		64371A9C2024BEA200894E07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64371A9D2024BEC000894E07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64371A9E2024BF1800894E07 /* FJWLatelyTableViewCell.swift */,
+				64371AA02024BFA800894E07 /* FJWLatelyTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70DFB7A940C25B2DD7471032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9C014ECADF4B8228BB388BB /* Pods-FJWriterProject.debug.xcconfig */,
+				4A636A832495C2A1881E1243 /* Pods-FJWriterProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A0E9EB259494D8C1A87DE36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2135C0901B1FFE21274BF77 /* libPods-FJWriterProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64371A5620236A4B00894E07 /* FJWriterProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64371A8220236A4B00894E07 /* Build configuration list for PBXNativeTarget "FJWriterProject" */;
+			buildPhases = (
+				030EEE26A19F04A8F100AEE1 /* [CP] Check Pods Manifest.lock */,
+				64371A5320236A4B00894E07 /* Sources */,
+				64371A5420236A4B00894E07 /* Frameworks */,
+				64371A5520236A4B00894E07 /* Resources */,
+				347E0AF714794D79E01FDEF3 /* [CP] Embed Pods Frameworks */,
+				7B69B471F525479A0312E2A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJWriterProject;
+			productName = FJWriterProject;
+			productReference = 64371A5720236A4B00894E07 /* FJWriterProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64371A6D20236A4B00894E07 /* FJWriterProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64371A8520236A4B00894E07 /* Build configuration list for PBXNativeTarget "FJWriterProjectTests" */;
+			buildPhases = (
+				64371A6A20236A4B00894E07 /* Sources */,
+				64371A6B20236A4B00894E07 /* Frameworks */,
+				64371A6C20236A4B00894E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64371A7020236A4B00894E07 /* PBXTargetDependency */,
+			);
+			name = FJWriterProjectTests;
+			productName = FJWriterProjectTests;
+			productReference = 64371A6E20236A4B00894E07 /* FJWriterProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64371A7820236A4B00894E07 /* FJWriterProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64371A8820236A4B00894E07 /* Build configuration list for PBXNativeTarget "FJWriterProjectUITests" */;
+			buildPhases = (
+				64371A7520236A4B00894E07 /* Sources */,
+				64371A7620236A4B00894E07 /* Frameworks */,
+				64371A7720236A4B00894E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64371A7B20236A4B00894E07 /* PBXTargetDependency */,
+			);
+			name = FJWriterProjectUITests;
+			productName = FJWriterProjectUITests;
+			productReference = 64371A7920236A4B00894E07 /* FJWriterProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64371A4F20236A4B00894E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fangjq;
+				TargetAttributes = {
+					64371A5620236A4B00894E07 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					64371A6D20236A4B00894E07 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64371A5620236A4B00894E07;
+					};
+					64371A7820236A4B00894E07 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64371A5620236A4B00894E07;
+					};
+				};
+			};
+			buildConfigurationList = 64371A5220236A4B00894E07 /* Build configuration list for PBXProject "FJWriterProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64371A4E20236A4B00894E07;
+			productRefGroup = 64371A5820236A4B00894E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64371A5620236A4B00894E07 /* FJWriterProject */,
+				64371A6D20236A4B00894E07 /* FJWriterProjectTests */,
+				64371A7820236A4B00894E07 /* FJWriterProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64371A5520236A4B00894E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64371AA12024BFA800894E07 /* FJWLatelyTableViewCell.xib in Resources */,
+				64371A6820236A4B00894E07 /* LaunchScreen.storyboard in Resources */,
+				64371A6520236A4B00894E07 /* Assets.xcassets in Resources */,
+				64371A6020236A4B00894E07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64371A6C20236A4B00894E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64371A7720236A4B00894E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030EEE26A19F04A8F100AEE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FJWriterProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		347E0AF714794D79E01FDEF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FJWriterProject/Pods-FJWriterProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B69B471F525479A0312E2A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FJWriterProject/Pods-FJWriterProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64371A5320236A4B00894E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64371A6320236A4B00894E07 /* FJWriterProject.xcdatamodeld in Sources */,
+				64371A8C20236CEA00894E07 /* MainViewController.swift in Sources */,
+				64371A9320236E3C00894E07 /* FJWWritingViewController.swift in Sources */,
+				64371A9520236E5200894E07 /* FJWSettingViewController.swift in Sources */,
+				64371A9F2024BF1800894E07 /* FJWLatelyTableViewCell.swift in Sources */,
+				64371A9120236E1700894E07 /* FJWLatelyViewController.swift in Sources */,
+				64371A5B20236A4B00894E07 /* AppDelegate.swift in Sources */,
+				64371A982023786100894E07 /* FJWUserViewController.swift in Sources */,
+				64371A9B2024998600894E07 /* UIColor+extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64371A6A20236A4B00894E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64371A7320236A4B00894E07 /* FJWriterProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64371A7520236A4B00894E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64371A7E20236A4B00894E07 /* FJWriterProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64371A7020236A4B00894E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64371A5620236A4B00894E07 /* FJWriterProject */;
+			targetProxy = 64371A6F20236A4B00894E07 /* PBXContainerItemProxy */;
+		};
+		64371A7B20236A4B00894E07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64371A5620236A4B00894E07 /* FJWriterProject */;
+			targetProxy = 64371A7A20236A4B00894E07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64371A5E20236A4B00894E07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64371A5F20236A4B00894E07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64371A6620236A4B00894E07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64371A6720236A4B00894E07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64371A8020236A4B00894E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64371A8120236A4B00894E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64371A8320236A4B00894E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C014ECADF4B8228BB388BB /* Pods-FJWriterProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FJWriterProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FJWriterProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64371A8420236A4B00894E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A636A832495C2A1881E1243 /* Pods-FJWriterProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FJWriterProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FJWriterProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64371A8620236A4B00894E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FJWriterProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FJWriterProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJWriterProject.app/FJWriterProject";
+			};
+			name = Debug;
+		};
+		64371A8720236A4B00894E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FJWriterProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FJWriterProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJWriterProject.app/FJWriterProject";
+			};
+			name = Release;
+		};
+		64371A8920236A4B00894E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FJWriterProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FJWriterProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJWriterProject;
+			};
+			name = Debug;
+		};
+		64371A8A20236A4B00894E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FJWriterProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FJWriterProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FJWriterProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64371A5220236A4B00894E07 /* Build configuration list for PBXProject "FJWriterProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64371A8020236A4B00894E07 /* Debug */,
+				64371A8120236A4B00894E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64371A8220236A4B00894E07 /* Build configuration list for PBXNativeTarget "FJWriterProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64371A8320236A4B00894E07 /* Debug */,
+				64371A8420236A4B00894E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64371A8520236A4B00894E07 /* Build configuration list for PBXNativeTarget "FJWriterProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64371A8620236A4B00894E07 /* Debug */,
+				64371A8720236A4B00894E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64371A8820236A4B00894E07 /* Build configuration list for PBXNativeTarget "FJWriterProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64371A8920236A4B00894E07 /* Debug */,
+				64371A8A20236A4B00894E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64371A6120236A4B00894E07 /* FJWriterProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64371A6220236A4B00894E07 /* FJWriterProject.xcdatamodel */,
+			);
+			currentVersion = 64371A6220236A4B00894E07 /* FJWriterProject.xcdatamodel */;
+			path = FJWriterProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64371A4F20236A4B00894E07 /* Project object */;
+}
