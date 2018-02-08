@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E7C157C710F4B9CE8B87D9 /* Pods_FJWriterProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A47F1D14BD203E7BD5E65B /* Pods_FJWriterProject.framework */; };
 		64371A5B20236A4B00894E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A5A20236A4B00894E07 /* AppDelegate.swift */; };
 		64371A6020236A4B00894E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64371A5E20236A4B00894E07 /* Main.storyboard */; };
 		64371A6320236A4B00894E07 /* FJWriterProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64371A6120236A4B00894E07 /* FJWriterProject.xcdatamodeld */; };
@@ -22,7 +23,9 @@
 		64371A9B2024998600894E07 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A9A2024998600894E07 /* UIColor+extension.swift */; };
 		64371A9F2024BF1800894E07 /* FJWLatelyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371A9E2024BF1800894E07 /* FJWLatelyTableViewCell.swift */; };
 		64371AA12024BFA800894E07 /* FJWLatelyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64371AA02024BFA800894E07 /* FJWLatelyTableViewCell.xib */; };
-		DDA4E17595F1FD4E75211D4D /* libPods-FJWriterProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2135C0901B1FFE21274BF77 /* libPods-FJWriterProject.a */; };
+		64371AB02027422A00894E07 /* FJWAddCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64371AAE2027422A00894E07 /* FJWAddCollectionViewCell.swift */; };
+		64371AB12027422A00894E07 /* FJWAddCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64371AAF2027422A00894E07 /* FJWAddCollectionViewCell.xib */; };
+		646769742028884900DDBD83 /* IntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646769732028884900DDBD83 /* IntroPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +68,10 @@
 		64371A9A2024998600894E07 /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+extension.swift"; path = "../../../../../Documents/UIColor+extension.swift"; sourceTree = "<group>"; };
 		64371A9E2024BF1800894E07 /* FJWLatelyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FJWLatelyTableViewCell.swift; path = ../../../../../../Documents/FJWLatelyTableViewCell.swift; sourceTree = "<group>"; };
 		64371AA02024BFA800894E07 /* FJWLatelyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FJWLatelyTableViewCell.xib; path = ../../../../../../Documents/FJWLatelyTableViewCell.xib; sourceTree = "<group>"; };
-		A2135C0901B1FFE21274BF77 /* libPods-FJWriterProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FJWriterProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64371AAE2027422A00894E07 /* FJWAddCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FJWAddCollectionViewCell.swift; sourceTree = "<group>"; };
+		64371AAF2027422A00894E07 /* FJWAddCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FJWAddCollectionViewCell.xib; sourceTree = "<group>"; };
+		646769732028884900DDBD83 /* IntroPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageViewController.swift; sourceTree = "<group>"; };
+		B8A47F1D14BD203E7BD5E65B /* Pods_FJWriterProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FJWriterProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C014ECADF4B8228BB388BB /* Pods-FJWriterProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FJWriterProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FJWriterProject/Pods-FJWriterProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA4E17595F1FD4E75211D4D /* libPods-FJWriterProject.a in Frameworks */,
+				27E7C157C710F4B9CE8B87D9 /* Pods_FJWriterProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +132,7 @@
 				64371A992024990400894E07 /* Extension */,
 				64371A5A20236A4B00894E07 /* AppDelegate.swift */,
 				64371A8B20236CEA00894E07 /* MainViewController.swift */,
+				646769732028884900DDBD83 /* IntroPageViewController.swift */,
 				64371A5E20236A4B00894E07 /* Main.storyboard */,
 				64371A6420236A4B00894E07 /* Assets.xcassets */,
 				64371A6620236A4B00894E07 /* LaunchScreen.storyboard */,
@@ -156,9 +163,8 @@
 		64371A8D20236D3700894E07 /* Lately */ = {
 			isa = PBXGroup;
 			children = (
-				64371A9D2024BEC000894E07 /* View */,
 				64371A9C2024BEA200894E07 /* Controller */,
-				64371A9020236E1700894E07 /* FJWLatelyViewController.swift */,
+				64371A9D2024BEC000894E07 /* Views */,
 			);
 			path = Lately;
 			sourceTree = "<group>";
@@ -166,7 +172,8 @@
 		64371A8E20236D6F00894E07 /* Writing */ = {
 			isa = PBXGroup;
 			children = (
-				64371A9220236E3C00894E07 /* FJWWritingViewController.swift */,
+				64371AAD202741B000894E07 /* Controller */,
+				64371AAC202741A400894E07 /* Views */,
 			);
 			path = Writing;
 			sourceTree = "<group>";
@@ -191,17 +198,35 @@
 		64371A9C2024BEA200894E07 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				64371A9020236E1700894E07 /* FJWLatelyViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		64371A9D2024BEC000894E07 /* View */ = {
+		64371A9D2024BEC000894E07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				64371A9E2024BF1800894E07 /* FJWLatelyTableViewCell.swift */,
 				64371AA02024BFA800894E07 /* FJWLatelyTableViewCell.xib */,
 			);
-			path = View;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64371AAC202741A400894E07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64371AAE2027422A00894E07 /* FJWAddCollectionViewCell.swift */,
+				64371AAF2027422A00894E07 /* FJWAddCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64371AAD202741B000894E07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64371A9220236E3C00894E07 /* FJWWritingViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		70DFB7A940C25B2DD7471032 /* Pods */ = {
@@ -216,7 +241,7 @@
 		8A0E9EB259494D8C1A87DE36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A2135C0901B1FFE21274BF77 /* libPods-FJWriterProject.a */,
+				B8A47F1D14BD203E7BD5E65B /* Pods_FJWriterProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -332,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64371AA12024BFA800894E07 /* FJWLatelyTableViewCell.xib in Resources */,
+				64371AB12027422A00894E07 /* FJWAddCollectionViewCell.xib in Resources */,
 				64371A6820236A4B00894E07 /* LaunchScreen.storyboard in Resources */,
 				64371A6520236A4B00894E07 /* Assets.xcassets in Resources */,
 				64371A6020236A4B00894E07 /* Main.storyboard in Resources */,
@@ -379,9 +405,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FJWriterProject/Pods-FJWriterProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -411,11 +448,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				64371A6320236A4B00894E07 /* FJWriterProject.xcdatamodeld in Sources */,
+				646769742028884900DDBD83 /* IntroPageViewController.swift in Sources */,
 				64371A8C20236CEA00894E07 /* MainViewController.swift in Sources */,
 				64371A9320236E3C00894E07 /* FJWWritingViewController.swift in Sources */,
 				64371A9520236E5200894E07 /* FJWSettingViewController.swift in Sources */,
 				64371A9F2024BF1800894E07 /* FJWLatelyTableViewCell.swift in Sources */,
 				64371A9120236E1700894E07 /* FJWLatelyViewController.swift in Sources */,
+				64371AB02027422A00894E07 /* FJWAddCollectionViewCell.swift in Sources */,
 				64371A5B20236A4B00894E07 /* AppDelegate.swift in Sources */,
 				64371A982023786100894E07 /* FJWUserViewController.swift in Sources */,
 				64371A9B2024998600894E07 /* UIColor+extension.swift in Sources */,

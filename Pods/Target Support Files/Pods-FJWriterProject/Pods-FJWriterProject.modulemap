@@ -1,0 +1,6 @@
+framework module Pods_FJWriterProject {
+  umbrella header "Pods-FJWriterProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -16,10 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        let rootVC = MainViewController()
-        window?.rootViewController = rootVC
-        
+//        window?.rootViewController = IntroPageViewController()
+        window?.rootViewController = MainViewController()
         setTabbarColor()
         setNavgationBar()
         return true
