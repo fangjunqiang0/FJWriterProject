@@ -17,6 +17,10 @@ class FJWWritingViewController: UIViewController, UICollectionViewDelegate, UICo
         return v
     }()
     
+    fileprivate var createView: FJWCreateView = {
+        let v = Bundle.main.loadNibNamed("FJWCreateView", owner: nil, options: nil)?.first as! FJWCreateView
+        return v
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,9 +38,6 @@ class FJWWritingViewController: UIViewController, UICollectionViewDelegate, UICo
         }
     }
     
-    func aaaaa(b: Int) -> Int {
-        return b
-    }
     //MARK: - UICollectionViewDataSource
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -74,14 +75,10 @@ class FJWWritingViewController: UIViewController, UICollectionViewDelegate, UICo
     
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("点击了添加")
-        let alertView = UIAlertController(title: "提示", message: "点击了添加", preferredStyle: .alert)
         
-        present(alertView, animated: true) {
-            
-        }
     }
     
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
