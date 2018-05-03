@@ -75,7 +75,7 @@ class FJWWritingViewController: UIViewController, UICollectionViewDelegate, UICo
     
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("点击了添加")
-        
+        UIApplication.shared.keyWindow?.addSubview(createView)
     }
     
 

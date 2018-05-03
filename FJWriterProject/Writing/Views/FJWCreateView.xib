@@ -21,10 +21,16 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqj-61-zXB">
                             <rect key="frame" x="0.0" y="102" width="157" height="50"/>
                             <state key="normal" title="取消"/>
+                            <connections>
+                                <action selector="cancelBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="n3N-jx-Gr9"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dtf-j3-Ft4">
                             <rect key="frame" x="158" y="102" width="157" height="50"/>
                             <state key="normal" title="确定"/>
+                            <connections>
+                                <action selector="confirmBtnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="doV-QA-MdR"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MX0-et-OoV">
                             <rect key="frame" x="157" y="102" width="1" height="50"/>
